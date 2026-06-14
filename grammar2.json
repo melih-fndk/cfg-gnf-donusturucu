@@ -1,0 +1,10 @@
+{
+  "variables": ["S", "A", "B"],
+  "terminals": ["a", "b"],
+  "start": "S",
+  "productions": {
+    "S": [["A", "B"], ["b"]],
+    "A": [["B"], ["a"]],
+    "B": [["b"]]
+  }
+}
